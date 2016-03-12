@@ -1,6 +1,11 @@
 angular
   .module('rolodex')
-  .controller('RoloController', RoloController)
+  .controller('RoloController', function($scope, $auth, RoloController){
+    $scope.authenticate = function(provider) {
+      $auth.authenticate(provider);
+    };
+  });
+
 function RoloController($scope){
   $scope.self = {}
   $scope.self.people = [{
