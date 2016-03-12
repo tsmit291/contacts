@@ -1,0 +1,44 @@
+.row{
+  margin: 0;
+}
+.name{
+  width: 50%;
+  float: left;
+}
+.hours{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.tech{
+  width: 100%;
+  clear: both;
+}
+.collapsible-body{
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.collapsible-body p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: .8em;
+
+}
+.collapsible-body h5{
+  font-size: 1.2em;
+}
+.cardcontent{
+  border-top: .2px solid grey;
+}
+.cardicons{
+  float: right;
+}
+.notes{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.margin{
+  padding-left: 2.5%;
+}
